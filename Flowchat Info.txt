@@ -1,0 +1,8 @@
+Add flowchart for Hotel Reservation System
+
+This flowchart illustrates the process for making hotel reservations in our system. It covers steps such as entering guest details, checking room availability, confirming the reservation, showing reservation status, searching for patron with name or unique reservation code and generating a confirmation.
+
+The flowchart is intended to provide a visual representation of the reservation process. 
+
+
+
