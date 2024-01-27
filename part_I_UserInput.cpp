@@ -4,7 +4,8 @@
 #include <cstring>
 using namespace std;
 int main()
-{  char choice;
+{  
+    char choice;
     char gender;
     short int age;
     string reservationCode, name;
