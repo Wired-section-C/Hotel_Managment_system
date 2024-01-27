@@ -1,0 +1,28 @@
+
+
+Pseudocode
+step 1: Start
+step 2: Prompt user to choose from User or Hotel staff
+step 3: if choice is User, then Registration
+                         Read name, age, gender
+                         Validate name, age, gender
+                         Read reservation code
+                         Validate reservation code
+                         Check uniqueness of the reservation code
+step 4: Room selection
+step 5: Check room availability
+step 6: Make reservation
+step 7: Confirmation
+step 8: Promps user if he/she want to continue
+step 9: if shice is 'yes' goto step-2
+        else if choice is'no' go to step-13
+step 10: if choice is Hotel staff, then prompt user to choose from view room status or search patron
+                               if choice is view room status, then display room status
+                               else if choice is search patrons, then prompt user to choose from search by name or by reservation code
+                               then display patron detail
+step 11: Promps user if he/she want to continue
+Step 12: if user chose 'yes', then goto step-2
+           else if user chose 'no'then goto step-13 
+step 13: End
+
+
