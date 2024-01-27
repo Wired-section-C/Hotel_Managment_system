@@ -4,7 +4,8 @@
 #include <cstring>
 using namespace std;
 int main()
-{   string OceanviewName[60], poolsideName[50], gardenName[40];
+{   
+    string OceanviewName[60], poolsideName[50], gardenName[40];
     int OceanviewAge[60], poolsideAge[50], gardenAge[40];
     string OceanviewReservationCode[60], poolsideReservationCode[50], gardenReservationCode[40];
     char genderOceanviewName[60], genderPoolsideName[50], gendergardenName[40];
@@ -120,7 +121,7 @@ int main()
                         break;
                     if (reservationCode[5] == OceanviewReservationCode[i][5])
                     {
-                        cout << "please enter unique reservation Code" << endl;
+                        cout << "Please enter unique reservation Code" << endl;
                         goto labelreservationcode;
                     }
                 }
@@ -134,7 +135,7 @@ int main()
                         break; // to out from loop
                     if (reservationCode[5] == poolsideReservationCode[i][5])
                     {
-                        cout << "please enter unique reservation Code" << endl;
+                        cout << "Please enter unique reservation Code" << endl;
                         goto labelreservationcode;
                     }
                 }
@@ -148,14 +149,14 @@ int main()
                         break;
                     if (reservationCode[5] == gardenReservationCode[i][5])
                     {
-                        cout << "please enter unique reservation Code" << endl;
+                        cout << "Please enter unique reservation Code" << endl;
                         goto labelreservationcode;
                     }
                 }
             }
             cout << "\n   Sucessfully registered!" << endl
                  << "\nWellcome " << name << endl
-                 << "Please select typr of room you want to reserve" << endl;
+                 << "Please select type of room you want to reserve" << endl;
         labelReservation: // If registration error occur
             cout << "  Press 1, For Oceanview room" << endl
                  << "\t2, For poolside" << endl
@@ -473,7 +474,6 @@ int main()
             }
             else
             { // If the reservation code in not foun in any category
-                cout << "Reservation code not found, please enter the correct code" << endl;
                 goto labelchoice;
             }
         }
