@@ -120,7 +120,7 @@ int main()
                         break;
                     if (reservationCode[5] == OceanviewReservationCode[i][5])
                     {
-                        cout << "please enter unique reservation Code" << endl;
+                        cout << "Please enter unique reservation Code" << endl;
                         goto labelreservationcode;
                     }
                 }
@@ -134,7 +134,7 @@ int main()
                         break; // to out from loop
                     if (reservationCode[5] == poolsideReservationCode[i][5])
                     {
-                        cout << "please enter unique reservation Code" << endl;
+                        cout << "Please enter unique reservation Code" << endl;
                         goto labelreservationcode;
                     }
                 }
@@ -148,7 +148,7 @@ int main()
                         break;
                     if (reservationCode[5] == gardenReservationCode[i][5])
                     {
-                        cout << "please enter unique reservation Code" << endl;
+                        cout << "Please enter unique reservation Code" << endl;
                         goto labelreservationcode;
                     }
                 }
@@ -293,7 +293,6 @@ int main()
                 goto labelReservation;
          }
          
-
 
         
   
